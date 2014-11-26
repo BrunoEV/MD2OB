@@ -1,0 +1,5 @@
+Option #1:
+Double click on MD2OB.obt
+
+Option #2:
+Copy MD2OB folder to /home/your-user/.themes
