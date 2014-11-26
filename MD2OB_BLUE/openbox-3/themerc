@@ -1,0 +1,124 @@
+!! MD2OB
+!! Author: iGNUcio SuperStar (Bruno EV)
+!! Contact: bruno.exposito@openmailbox.org
+!! License: GPL3
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!                DESKTOP MENU                !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!! Title background
+menu.title.bg: flat
+menu.title.bg.color: #01a1af
+
+!! Color and align of the title
+menu.title.text.color: #FFFFFF
+menu.title.text.justify: left
+
+!! Background of the items
+menu.items.bg: Flat
+menu.items.bg.color: #FFFFFF
+
+!! Color and align of the text
+menu.items.text.color: #000000
+menu.items.justify: left
+
+!! Color of the disabled items
+menu.items.disabled.text.color: #d7d7d7
+
+!! Unselected bullet color
+menu.bullet.image.color: #000000
+
+!! Selected item (and bullet)
+menu.items.active.bg: Flat
+menu.items.active.bg.color: #d83634
+menu.items.active.text.color: #FFFFFF
+menu.bullet.selected.image.color: #ffffff
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!                ACTIVE WINDOW                !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!! Background color
+window.active.title.bg: focus: flat
+window.active.title.bg.color: #01a1af
+
+!! Color and align of title text
+window.active.label.bg: parentrelative
+window.active.label.text.color:  #FFFFFF
+window.label.text.justify: left
+
+!! Background and color of buttons
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #5accd8
+
+!! Button color when is maximized
+window.active.button.toggled.image.color: #FFFFFF
+
+!! Background color when is pressed
+window.active.button.pressed.bg: parentrelative
+
+!! Disabled buttons
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #158c9a
+
+!! Color of the bottom of non-maximized window
+window.active.handle.bg: flat
+window.active.handle.bg.color: #01a1af
+window.active.grip.bg: flat
+window.active.grip.bg.color: #01a1af
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!                INACTIVE WINDOW                !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!! Background color
+window.inactive.title.bg: flat
+window.inactive.title.bg.color: #45d0e3
+
+!! Color and align of title text
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #FFFFFF
+
+!! Background and color of buttons
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.image.color: #b0ebf3
+
+!! Background color when is pressed
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.pressed.bg.color: #ffffff
+
+!! Disabled buttons
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color: #158c9a
+
+!! Color of the bottom of non-maximized window
+window.inactive.handle.bg: flat
+window.inactive.handle.bg.color: #45d0e3
+window.inactive.grip.bg: flat
+window.inactive.grip.bg.color: #45d0e3
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!                GLOBAL CONFIGURATION                !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+border.width: 0
+padding.width: 4
+padding.height: 4
+window.handle.width: 3
+window.client.padding.width: 0
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!                FONTS                !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+window.active.label.text.font: Bitstream Vera Sans:bold:size=6
+window.inactive.label.text.font: Bitstream Vera Sans:bold:size=6
+menu.items.font:  Trebuchet Ms:size=6
+menu.title.text.font: Trebuchet Ms:bold:size=6
